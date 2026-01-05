@@ -214,15 +214,33 @@ h2 {
   gap: 10px;
 }
 .skill {
+  position: relative; /* THIS FIXES EVERYTHING */
+  overflow: hidden;
   background: var(--glass);
-  padding: 8px 12px;
+  padding: 8px 14px;
   border-radius: 999px;
   font-size: 13px;
   transition: 0.3s;
 }
+
 .skill:hover {
   background: var(--accent);
   color: #000;
+}
+
+.skill::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #00bcd4, #00ffff);
+  opacity: 0.18;
+  z-index: 0;
+}
+
+.skill span,
+.skill {
+  position: relative;
+  z-index: 1;
 }
 
 /* Projects */
@@ -349,4 +367,387 @@ footer {
   .hero {
     flex-direction: column;
   }
+}
+
+/* ================= PREMIUM UPGRADE LAYER ================= */
+
+/* Smooth overall feel */
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Glass Navbar */
+header {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(18px);
+  background: rgba(10, 10, 15, 0.65);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  z-index: 99;
+}
+
+/* Floating profile */
+.thumb-card {
+  animation: float 6s ease-in-out infinite;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Neon glow buttons */
+.primary,
+.secondary {
+  position: relative;
+  overflow: hidden;
+}
+.primary::after,
+.secondary::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(0, 255, 255, 0.45),
+    transparent
+  );
+  opacity: 0;
+  transition: 0.4s;
+}
+.primary:hover::after,
+.secondary:hover::after {
+  opacity: 1;
+}
+
+/* Service card border glow */
+.service-card {
+  position: relative;
+}
+.service-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(0, 188, 212, 0.45),
+    transparent
+  );
+  opacity: 0;
+  transition: 0.4s;
+}
+.service-card:hover::after {
+  opacity: 1;
+}
+
+/* Skill pill shine */
+.skill::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #00bcd4, #00ffff);
+  opacity: 0.18;
+}
+
+/* 3D projects */
+.project {
+  transform-style: preserve-3d;
+}
+.project:hover {
+  transform: rotateY(6deg) rotateX(6deg) translateY(-6px);
+}
+
+/* Premium footer bar */
+footer {
+  background: linear-gradient(90deg, #00bcd4, #00ffff);
+  color: #000;
+  font-weight: 600;
+}
+
+/* Fix anchor scroll hidden under fixed header */
+section {
+  scroll-margin-top: 110px;
+}
+
+nav a:focus,
+nav a:active {
+  background: var(--accent);
+  color: #000;
+}
+
+/* Fix for navbar covering sections */
+section {
+  scroll-margin-top: 100px;
+}
+
+/* Smooth glowing active nav effect */
+nav a {
+  position: relative;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 4px;
+  width: 0%;
+  height: 2px;
+  background: #00ffff;
+  transition: 0.3s;
+  transform: translateX(-50%);
+}
+
+nav a:hover::after {
+  width: 70%;
+}
+
+/* Better section spacing */
+#about,
+#skills,
+#projects,
+#contact {
+  padding-top: 40px;
+}
+
+/* ========== FIXED NAV SCROLL ISSUE ========== */
+section {
+  scroll-margin-top: 120px;
+}
+
+/* ========== HEADER GLASS LOOK ========== */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(12px);
+  padding: 14px 24px;
+  border-radius: 14px;
+  box-shadow: 0 0 25px rgba(0, 188, 212, 0.15);
+}
+
+/* ========== NAV ACTIVE GLOW ========== */
+nav a {
+  position: relative;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  width: 0%;
+  height: 2px;
+  background: #00ffff;
+  transform: translateX(-50%);
+  transition: 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 70%;
+}
+
+/* ========== SKILLS GLOW CHIP ========== */
+.skill {
+  box-shadow: 0 0 8px rgba(0, 188, 212, 0.4);
+}
+
+.skill:hover {
+  background: #00ffff;
+  color: #000;
+  box-shadow: 0 0 20px #00ffff;
+}
+
+/* ========== PROJECT CARD PREMIUM ========== */
+.project {
+  box-shadow: 0 0 20px rgba(0, 188, 212, 0.15);
+}
+
+.project:hover {
+  box-shadow: 0 0 40px rgba(0, 188, 212, 0.45);
+  transform: translateY(-8px) scale(1.02);
+}
+
+/* ========== SECTION SPACING ========== */
+#about,
+#skills,
+#projects,
+#contact {
+  padding-top: 60px;
+}
+
+.skill-block {
+  background: rgba(255, 255, 255, 0.05);
+  border-left: 4px solid #00bcd4;
+  padding: 12px 16px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  transition: 0.3s;
+}
+
+.skill-block:hover {
+  background: rgba(0, 188, 212, 0.15);
+  transform: translateX(6px);
+}
+
+.skill-block h4 {
+  color: #00ffff;
+  margin-bottom: 4px;
+  font-size: 15px;
+}
+
+.skill-block p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+}
+
+/* ===============================
+   MOBILE RESPONSIVE POLISH
+================================ */
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .wrap {
+    padding: 20px 14px;
+  }
+
+  /* NAVBAR */
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: rgba(0, 188, 212, 0.08);
+    padding: 12px 6px;
+    border-radius: 14px;
+    box-shadow: 0 0 18px rgba(0, 188, 212, 0.15);
+  }
+
+  nav a {
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+
+  /* HERO */
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .name {
+    font-size: 32px;
+  }
+
+  .typing {
+    font-size: 16px;
+  }
+
+  .lead {
+    font-size: 14px;
+  }
+
+  .cta {
+    justify-content: center;
+  }
+
+  .thumb-card {
+    width: 100%;
+  }
+
+  /* SERVICES */
+  .services {
+    grid-template-columns: 1fr;
+  }
+
+  /* SKILLS */
+  .skills {
+    justify-content: center;
+  }
+
+  .skill {
+    font-size: 12px;
+    padding: 7px 14px;
+  }
+
+  /* PROJECTS */
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* CONTACT */
+  #contactForm input,
+  #contactForm textarea {
+    font-size: 14px;
+  }
+
+  #contactForm button {
+    width: 100%;
+  }
+
+  /* FOOTER */
+  footer {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Smooth scroll + premium feel */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.movie-style {
+  padding: 0;
+  overflow: hidden;
+}
+
+.project-top {
+  background: linear-gradient(90deg, #00ffff, #00bcd4);
+  color: #000;
+  padding: 10px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.project-preview iframe {
+  width: 100%;
+  height: 330px;
+  border: 0;
+  background: #000;
+}
+
+.project-body {
+  padding: 14px;
+}
+
+.project-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #00ffff;
+  color: #000;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.project-btn:hover {
+  background: #00e0e0;
 }
