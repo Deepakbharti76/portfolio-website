@@ -751,3 +751,15 @@ nav a:hover::after {
 .project-btn:hover {
   background: #00e0e0;
 }
+.loader-text {
+  color: #ff0000;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  /* remove all effects */
+  text-shadow: none;
+  filter: none;
+  -webkit-text-stroke: 1px;
+}
