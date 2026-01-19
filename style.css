@@ -763,3 +763,126 @@ nav a:hover::after {
   filter: none;
   -webkit-text-stroke: 1px;
 }
+
+/* ===== ABOUT ME SECTION ===== */
+.about-section {
+  position: relative;
+  margin: 40px auto;
+  padding: 28px 32px;
+
+  max-width: 1100px;
+  width: calc(100% - 40px);
+
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.04),
+    rgba(0, 0, 0, 0.35)
+  );
+
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.55),
+    inset 0 0 18px rgba(0, 0, 0, 0.6);
+
+  perspective: 1000px;
+
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease,
+    background 0.35s ease,
+    border 0.35s ease;
+}
+
+/* ===== HOVER 3D EFFECT ===== */
+.about-section:hover {
+  border-left: 4px solid #00e5ff;
+
+  background: linear-gradient(
+    135deg,
+    rgba(0, 229, 255, 0.15),
+    rgba(0, 0, 0, 0.3)
+  );
+
+  box-shadow:
+    0 14px 34px rgba(0, 229, 255, 0.25),
+    inset 0 0 22px rgba(0, 0, 0, 0.65);
+
+  transform: translateY(-6px) scale(1.01) rotateX(3deg);
+}
+
+/* ===== TEXT SAFETY (CUT NA HO) ===== */
+.about-section p {
+  line-height: 1.8;
+  word-wrap: break-word;
+}
+
+/* ===== MOBILE FIX ===== */
+@media (max-width: 768px) {
+  .about-section {
+    padding: 22px;
+    transform: none !important;
+  }
+
+  .about-section:hover {
+    transform: none;
+  }
+}
+
+/* ===== HERO LEFT CARD ===== */
+.hero-left {
+  padding: 28px 32px;
+  border-radius: 14px;
+
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.04),
+    rgba(0, 0, 0, 0.35)
+  );
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  box-shadow:
+    0 8px 22px rgba(0, 0, 0, 0.55),
+    inset 0 0 18px rgba(0, 0, 0, 0.6);
+
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease,
+    background 0.35s ease,
+    border 0.35s ease;
+}
+
+/* ===== HERO LEFT HOVER ===== */
+.hero-left:hover {
+  border-left: 4px solid #00e5ff;
+
+  background: linear-gradient(
+    135deg,
+    rgba(0, 229, 255, 0.15),
+    rgba(0, 0, 0, 0.3)
+  );
+
+  box-shadow:
+    0 14px 34px rgba(0, 229, 255, 0.25),
+    inset 0 0 22px rgba(0, 0, 0, 0.65);
+
+  transform: translateY(-6px) scale(1o1);
+}
+
+/* ===== TEXT SAFE ===== */
+.hero-left p {
+  line-height: 1.7;
+}
+
+/* ===== MOBILE SAFE ===== */
+@media (max-width: 768px) {
+  .hero-left {
+    padding: 22px;
+  }
+
+  .hero-left:hover {
+    transform: none;
+  }
+}
