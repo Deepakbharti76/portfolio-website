@@ -14,7 +14,7 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
 
   const subject = encodeURIComponent(`Message from ${name}`);
   const body = encodeURIComponent(
-    `Name: ${name}\nEmail: ${email}\n\n${message}`
+    `Name: ${name}\nEmail: ${email}\n\n${message}`,
   );
   window.location.href = `mailto:kumardeepak7276884@gmail.com?subject=${subject}&body=${body}`;
 });
