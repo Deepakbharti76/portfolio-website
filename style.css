@@ -896,3 +896,38 @@ footer .accent {
     width: 200px;
   }
 }
+
+/* Desktop */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 0 12px; /* side gap control */
+  }
+
+  .hero-right {
+    margin-top: 20px; /* text aur image ke beech gap */
+    width: 100%;
+  }
+
+  .thumb-card {
+    width: 100%;
+    max-width: 100%; /* 🔥 full width */
+    margin: auto;
+  }
+
+  .thumb-card img {
+    width: 100%;
+    height: auto; /* no crop */
+    border-radius: 20px;
+    display: block;
+  }
+}
