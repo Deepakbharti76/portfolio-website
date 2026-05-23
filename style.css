@@ -1021,9 +1021,12 @@ footer .accent {
 
 .projects-title {
   font-weight: 800;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: nowrap;
 
   background: linear-gradient(90deg, #ff0000, #ea3bf6f4, #8b5cf6, #ff4fd8);
-
   background-size: 300% auto;
 
   -webkit-background-clip: text;
@@ -1031,8 +1034,10 @@ footer .accent {
 
   animation: gradientFlow 5s linear infinite;
 
-  display: inline-block;
-  .code-icon {
-    margin-right: 8px;
-  }
+  line-height: 1;
+}
+
+.code-icon {
+  margin-right: 8px;
+  flex-shrink: 0;
 }
