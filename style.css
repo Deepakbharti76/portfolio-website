@@ -977,3 +977,62 @@ footer .accent {
     display: block;
   }
 }
+
+.project-body h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.3;
+  background: linear-gradient(90deg, #7bff00da, #3b82f6, #8b5cf6, #ff000000);
+  background-size: 300% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: glowText 6s linear infinite;
+}
+
+.section-title {
+  font-weight: 800;
+  background: linear-gradient(90deg, #ff0000, #ea3bf6f4, #8b5cf6, #ff4fd8);
+  background-size: 300% auto;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: gradientMove 6s linear infinite;
+
+  display: inline-block;
+}
+.skills-title {
+  font-weight: 800;
+
+  background: linear-gradient(90deg, #ff0000, #ea3bf6f4, #8b5cf6, #ff4fd8);
+  background-size: 300% auto;
+
+  background-size: 300% auto;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: gradientFlow 6s linear infinite;
+  display: inline-block;
+  .skills-icon {
+    margin-right: 8px;
+  }
+}
+
+.projects-title {
+  font-weight: 800;
+
+  background: linear-gradient(90deg, #ff0000, #ea3bf6f4, #8b5cf6, #ff4fd8);
+
+  background-size: 300% auto;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: gradientFlow 5s linear infinite;
+
+  display: inline-block;
+  .code-icon {
+    margin-right: 8px;
+  }
+}
