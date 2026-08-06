@@ -7,13 +7,10 @@ https://deepakbharti76.github.io/portfolio-website/
 Java Full Stack Developer | React | Spring Boot | MySQL
 
 ## 🛠️ Tech Stack
-- HTML
-- CSS
+
+- HTML5
+- CSS3
 - JavaScript
-- React
-- Java
-- Spring Boot
-- MySQL
 
 ## 🚀 Projects
 - Portfolio Website
