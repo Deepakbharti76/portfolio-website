@@ -65,84 +65,140 @@ I continuously improve my technical skills by learning new technologies and buil
 
 # 🚀 Featured Projects
 
-## ✈️ GoTravel
+## 1️⃣ 🎬 Movie Mate – Movie Search App
 
-A Full Stack Smart Travel Booking Platform with authentication, admin dashboard, flight, train, bus, hotel search, WhatsApp support, and responsive design.
+A responsive movie search web application built using HTML, CSS, and JavaScript. It allows users to search movies and view movie details with a clean, responsive, and modern user interface.
 
-**Tech Stack**
+### 🛠 Tech Stack
 
-- React
-- Spring Boot
-- Java
-- MySQL
-- REST API
-- JWT
+- 🌐 HTML5
+- 🎨 CSS3
+- 🟨 JavaScript
+- 🔗 Movie API
 
----
+### 🌐 Live Demo
 
-## 🛒 DeepShopHub
-
-A modern Full Stack E-commerce Application with authentication, shopping cart, product management, invoice generation, order tracking, and responsive UI.
-
-**Tech Stack**
-
-- React
-- Spring Boot
-- Java
-- MySQL
-- REST API
+https://deepakbharti76.github.io/Movie-Mate/
 
 ---
 
-## 🎥 VidChat Pro
+## 2️⃣ ⏱ Stopwatch Web App
 
-A real-time Video Conferencing Application supporting HD video calls, chat, screen sharing, room management, and responsive interface.
+A modern and responsive stopwatch web application built using pure HTML, CSS, and JavaScript. It features a clean interface with Start, Stop, and Reset functionality for an enhanced user experience.
 
-**Tech Stack**
+### 🛠 Tech Stack
 
-- WebRTC
-- Socket.IO
-- Node.js
-- Express.js
+- 🌐 HTML5
+- 🎨 CSS3
+- 🟨 JavaScript
 
----
+### 🌐 Live Demo
 
-## 🤖 Interview Prep AI
-
-AI-powered Interview Preparation Platform built for Java, SQL, React, and DSA interview practice using AI-generated explanations.
-
-**Tech Stack**
-
-- React
-- Node.js
-- Express.js
-- MongoDB
-- Gemini API
+https://deepakbharti76.github.io/stopwatch/
 
 ---
 
-## 🎬 Movie Mate
+## 3️⃣ 📹 VidChat Pro – Video Conferencing App
 
-Responsive Movie Search Web Application with API integration.
+A real-time video conferencing web application built using WebRTC and Socket.IO for seamless peer-to-peer communication. It supports HD video and audio calling, real-time chat, screen sharing, multiple participants, microphone controls, camera switching, hand raise functionality, and a fully responsive interface.
 
-**Tech Stack**
+### 🛠 Tech Stack
 
-- HTML
-- CSS
-- JavaScript
-- Movie API
+- 🌐 HTML5
+- 🎨 CSS3
+- 🟨 JavaScript
+- 🎥 WebRTC
+- 🔌 Socket.IO
+- 🟢 Node.js
+- 🚂 Express.js
+- ☁️ Render
+
+### 🌐 Live Demo
+
+https://video-conferencing-app-qklj.onrender.com/
 
 ---
 
-## ⏱ Stopwatch
+## 4️⃣ 🤖 Interview Prep AI – AI Powered Interview Preparation Platform
 
-Responsive Stopwatch Web Application.
+A modern full-stack AI-powered interview preparation platform designed for practicing technical interviews with role-based questions and concept explanations. It features secure authentication, AI-generated interview questions using Gemini AI, session management, admin dashboard, analytics, and a fully responsive interface.
 
-**Tech Stack**
+### 🛠 Tech Stack
 
-- HTML
-- CSS
-- JavaScript
+- 🌐 HTML5
+- 🎨 CSS3
+- 🟨 JavaScript
+- ⚛️ React
+- ⚡ Vite
+- 🟢 Node.js
+- 🚂 Express.js
+- 🍃 MongoDB
+- 🔐 JWT Authentication
+- 🤖 Gemini AI
+- 💨 Tailwind CSS
+- 👨‍💼 Admin Panel
+- 📱 Responsive UI
+- ▲ Vercel
+- ☁️ Render
+
+### 🌐 Live Demo
+
+https://interview-prep-ai-roan.vercel.app/
+
+---
+
+## 5️⃣ ✈️ GoTravel – Smart Travel Booking Platform
+
+A modern full-stack travel booking platform that enables users to search flights, trains, buses, and hotels with a responsive interface and real-time backend integration. It includes authentication, admin dashboard, WhatsApp support, official booking links, and seamless travel planning.
+
+### 🛠 Tech Stack
+
+- 🌐 HTML5
+- 🎨 CSS3
+- 🟨 JavaScript
+- ⚛️ React
+- ⚡ Vite
+- ☕ Java
+- 🍃 Spring Boot
+- 🛢 MySQL
+- 🌍 REST API
+- 🔐 JWT Authentication
+- 💨 Tailwind CSS
+- 📱 Responsive UI
+- 🟢 Node.js
+- ▲ Vercel
+- ☁️ Render
+
+### 🌐 Live Demo
+
+https://gotravel-website.vercel.app/
+
+---
+
+## 6️⃣ 🛒 DeepShopHub – Full Stack E-commerce Web Application
+
+A full-stack e-commerce web application developed using Spring Boot and modern frontend technologies. It includes user authentication, product listing, shopping cart, order management, payment options (UPI/COD), invoice generation (A4 PDF), admin dashboard, product management, order tracking, and a responsive user interface.
+
+### 🛠 Tech Stack
+
+- 🌐 HTML5
+- 🎨 CSS3
+- 🟨 JavaScript
+- ⚛️ React
+- 🔄 Axios
+- ☕ Java
+- 🍃 Spring Boot
+- 🛢 MySQL
+- 🌍 REST API
+- 🔐 JWT Authentication
+- 📄 jsPDF
+- 📱 Responsive UI
+- 🚂 Express.js
+- ☁️ Render
+
+### 💻 GitHub Repository
+
+https://github.com/Deepakbharti76/deepshophub
 
 ---
 
