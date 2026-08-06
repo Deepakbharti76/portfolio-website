@@ -196,9 +196,33 @@ A full-stack e-commerce web application developed using Spring Boot and modern f
 - 🚂 Express.js
 - ☁️ Render
 
-### 💻 GitHub Repository
+  ### 💻 GitHub Repository
 
 https://github.com/Deepakbharti76/deepshophub
+
+---
+
+## 7️⃣ 🛡 Trishul CRM – Smart Business Management
+
+A full-stack Customer Relationship Management (CRM) dashboard built with a Spring Boot REST API backend and a vanilla JavaScript frontend. It supports role-based access control (Admin, Supervisor, User), live analytics dashboard with charts, full CRUD for customers/leads/tasks/employees, report generation, and a data-driven AI assistant — all wrapped in a premium dark UI with a cinematic SVG opening animation.
+
+### 🛠 Tech Stack
+
+- 🌐 HTML5
+- 🎨 CSS3
+- 🟨 JavaScript (Vanilla)
+- 📊 Chart.js
+- 🔤 Font Awesome
+- ☕ Java 21
+- 🍃 Spring Boot
+- 🔐 Spring Security
+- 🗄 Spring Data JPA
+- 🐬 MySQL
+- 📦 Maven
+
+### 🌐 Live Demo
+
+https://github.com/Deepakbharti76/trishul-crm
 
 ---
 
