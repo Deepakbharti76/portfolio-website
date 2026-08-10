@@ -265,7 +265,7 @@ Covered:
 
 # 📬 Contact
 
-📍 Noida, Uttar Pradesh, India
+📍 Ghaziabad, Uttar Pradesh, India
 
 💻 GitHub  
 https://github.com/Deepakbharti76
