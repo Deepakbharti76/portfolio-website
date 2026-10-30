@@ -175,7 +175,111 @@ https://gotravel-website.vercel.app/
 
 ---
 
-## 6️⃣ 🛒 DeepShopHub – Full Stack E-commerce Web Application
+## 6️⃣ 🛍️ TrendsFit – Fashion E-commerce Web Application
+
+TrendsFit is a modern fashion e-commerce web application built to provide a smooth and user-friendly online shopping experience. It features a clean interface for exploring fashion products, including jeans, shirts, T-shirts, and hoodies.
+
+The project uses React for the frontend, Java Spring Boot for the backend, and MySQL for database management.
+
+### ✨ Features
+
+- 🏠 **Modern Homepage**: Attractive homepage with featured products and new arrivals.
+- 👕 **Product Categories**: Explore fashion products by category.
+- 🔍 **Product Search**: Find products easily.
+- 🎨 **Product Variants**: Display product sizes and color options.
+- ❤️ **Wishlist Interface**: Save favorite products.
+- 🛒 **Shopping Cart Interface**: View and manage shopping cart items.
+- 👤 **User Interface**: User account and authentication screens.
+- 🛠️ **Admin Dashboard**: Interface for managing store products.
+- 📱 **Responsive Design**: User-friendly layout for desktop, tablet, and mobile devices.
+
+### 🛠 Tech Stack
+
+**Frontend**
+
+- ⚛️ React.js
+- 🟨 JavaScript
+- 🌐 HTML5
+- 🎨 CSS3
+- 🔄 Axios
+- ⚡ Vite
+
+**Backend**
+
+- ☕ Java
+- 🍃 Spring Boot
+- 🌍 REST APIs
+- 🔐 JWT Authentication
+
+**Database**
+
+- 🛢 MySQL
+
+**Tools**
+
+- 🐙 Git
+- 🐱 GitHub
+- 💻 Visual Studio Code
+
+### 🚀 Getting Started
+
+**1. Clone the Repository**
+
+```bash
+git clone https://github.com/Deepakbharti76/TrendsFit.git
+cd TrendsFit
+```
+
+**2. Run the Frontend**
+
+Navigate to the frontend directory containing `package.json`:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Open the local URL displayed in your terminal.
+
+**3. Configure the Backend**
+
+Configure the MySQL database connection and required environment variables in your local configuration. Never upload database passwords or JWT secrets to GitHub.
+
+**4. Run the Backend**
+
+Navigate to the backend directory:
+
+```bash
+cd backend
+mvn spring-boot:run
+```
+
+_Note: Adjust directory names and configuration according to the actual project structure._
+
+### 🌐 Live Demo
+
+Coming Soon.
+
+### 💻 GitHub Repository
+
+https://github.com/Deepakbharti76/TrendsFit
+
+### 🎯 Project Objective
+
+The objective of TrendsFit is to develop a modern fashion e-commerce platform with a clean user interface, organized product listings, and a convenient shopping experience. The project demonstrates frontend development, Java-based backend development, REST APIs, and database integration.
+
+### 👨‍💻 Developer
+
+Developed as a full-stack fashion e-commerce project using React, Java Spring Boot, and MySQL.
+
+---
+
+⭐ If you find this project interesting, consider starring the repository!
+
+---
+
+## 7️⃣ 🛒 DeepShopHub – Full Stack E-commerce Web Application
 
 A full-stack e-commerce web application developed using Spring Boot and modern frontend technologies. It includes user authentication, product listing, shopping cart, order management, payment options (UPI/COD), invoice generation (A4 PDF), admin dashboard, product management, order tracking, and a responsive user interface.
 
@@ -202,7 +306,7 @@ https://github.com/Deepakbharti76/deepshophub
 
 ---
 
-## 7️⃣ 🛡 Trishul CRM – Smart Business Management
+##8️⃣ 🛡 Trishul CRM – Smart Business Management
 
 A full-stack Customer Relationship Management (CRM) dashboard built with a Spring Boot REST API backend and a vanilla JavaScript frontend. It supports role-based access control (Admin, Supervisor, User), live analytics dashboard with charts, full CRUD for customers/leads/tasks/employees, report generation, and a data-driven AI assistant — all wrapped in a premium dark UI with a cinematic SVG opening animation.
 
