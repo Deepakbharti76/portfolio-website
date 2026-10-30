@@ -369,7 +369,7 @@ Covered:
 
 # 📬 Contact
 
-📍 Ghaziabad, Uttar Pradesh, India
+📍 Karnal & Panipat, Haryana, India
 
 💻 GitHub  
 https://github.com/Deepakbharti76
